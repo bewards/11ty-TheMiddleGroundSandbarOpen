@@ -71,24 +71,6 @@ a:not(.tdbc-button) {
   color: $tdbc-link-color;
 }
 
-code:not([class*="language"]) {
-  display: inline-flex;
-  padding: 0.15em;
-  background-color: tdbc-color("light");
-  color: tdbc-color("gray");
-  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-  border: 1px solid scale-color(tdbc-color("gray"), $lightness: 50%);
-  border-radius: 2px;
-  font-size: 0.75em;
-  line-height: 1.1;
-}
-
-pre code:not([class*="language"]) {
-  width: 100%;
-  max-width: calc(100vw - 2rem);
-  overflow-x: auto;
-}
-
 blockquote {
   margin-left: 0;
   margin-right: 0;

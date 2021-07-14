@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 @font-face {
   font-family: "Baloo 2";
   font-style: normal;
@@ -16,6 +18,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Beautiful People";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/BeautifulPeople.ttf") format("truetype");
+  font-display: swap;
+}
+
 @import "theme";
 @import "reset";
 @import "layout";
@@ -23,5 +33,4 @@
 @import "typography";
 @import "buttons";
 @import "card";
-@import "prism";
 @import "utilities";

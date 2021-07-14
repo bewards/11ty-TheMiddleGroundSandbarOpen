@@ -172,14 +172,6 @@ If choosing to create your own styles for option #2, the CSS will be output in `
 
 Adjust the collections loop in `_generate/pagesjson.njk`, but keep the defined keys of `title` and `imgName`.
 
-## Prism Syntax Highlighting
-
-Syntax highlighting of inline or code blocks found within Markdown content is provided by Prism via `@11ty/eleventy-plugin-syntaxhighlight`.
-
-You can change the theme used in `sass/_prism.scss`.
-
-Or, remove the plugin if you are not in need of code highlighting.
-
 ## .eleventy.js Config Features
 
 ### Overrides

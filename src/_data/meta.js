@@ -1,8 +1,8 @@
 module.exports = {
   url: process.env.URL || "http://localhost:8080",
-  siteName: "11ty Netlify Jumpstart",
+  siteName: "Middle Ground Sandbar Open",
   siteDescription:
-    "Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.",
-  authorName: "Stephanie Eckles",
-  twitterUsername: "5t3ph", // no `@`
+    "The Middle Ground Sandbar Open is a charity golf tournament, hosted in the town of Ipswich MA.",
+  authorName: "Ben Sewards",
+  twitterUsername: "Bewards", // no `@`
 };

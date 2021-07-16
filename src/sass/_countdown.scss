@@ -1,0 +1,54 @@
+#countdown {
+    background-color: #ffd54f;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    width: 50ch;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    border: 2px solid tdbc-color("primary");
+
+    h2 {
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-size: 1.75rem;
+    }
+
+    ul {
+        padding-left: 0;
+        margin: 0;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 1em;
+        list-style-type: none;
+        padding: 0 .5em;
+        text-transform: uppercase;
+
+        @include for-size(p-only) {
+            font-size: .75rem;
+            padding: .25rem;
+        }
+    }
+
+    li span {
+        display: block;
+        font-size: 4.5rem;
+
+        @include for-size(p-only) {
+            font-size: 3.375rem;
+        }
+    }
+
+    .countdown-result {
+        display: none;
+        padding: 1rem;
+    }
+
+    .countdown-result span {
+        font-size: 4rem;
+        padding: 0 .5rem;
+    }
+}

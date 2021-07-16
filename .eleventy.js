@@ -60,5 +60,6 @@ module.exports = function (eleventyConfig) {
       input: "src",
       output: "public",
     },
+    templateFormats: ['njk', 'md', '11ty.js']
   };
 };

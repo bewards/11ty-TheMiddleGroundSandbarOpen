@@ -1,0 +1,37 @@
+@mixin for-size($size) {
+    @if $size==p-only {
+        @media (max-width: 599px) {
+            @content;
+        }
+    }
+
+    @else if $size==tp-up {
+        @media (min-width: 600px) {
+            @content;
+        }
+    }
+
+    @else if $size==tp-down {
+        @media (max-width: 899px) {
+            @content;
+        }
+    }
+
+    @else if $size==tl-up {
+        @media (min-width: 900px) {
+            @content;
+        }
+    }
+
+    @else if $size==d-up {
+        @media (min-width: 1100px) {
+            @content;
+        }
+    }
+
+    @else if $size==bd-up {
+        @media (min-width: 1600px) {
+            @content;
+        }
+    }
+}
